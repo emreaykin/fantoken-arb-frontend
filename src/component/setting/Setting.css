@@ -1,0 +1,67 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.Settings-menu {
+  position: absolute;
+  top: 70px; /* header yüksekliğine göre bu değeri ayarlayabilirsiniz */
+  left: auto;
+  right: 10px;
+  width: 300px;
+  height: 400px;
+  background-color: rgb(49 62 76);
+  border-radius: 10px;
+  color: white;
+  z-index: 2; /* containerın z-index'inden daha yüksek */
+}
+.Settings-header {
+  margin-left: 40%;
+}
+.Alarm-settings {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.Alarm {
+  background-color: rgb(55, 74, 95);
+  border: none;
+  border-radius: 5px;
+  padding: 8px 15px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 5px;
+  margin-left: 7px;
+  color: white;
+}
+
+.Alarm-button:hover {
+  cursor: pointer;
+}
+.Alarm-button:active {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  transform: translateY(1px);
+}
+
+.Alarm-input {
+  max-width: 70px;
+  list-style: none;
+}
+.line::before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 95%;
+  background-color: white;
+  margin: 0 5px 0 5px;
+}
+
+.Uptade-settings {
+  margin-top: 10px;
+}
+
+.Uptade-log {
+  max-width: 400px;
+  padding: 8px;
+}

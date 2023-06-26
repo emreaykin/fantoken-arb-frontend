@@ -1,0 +1,42 @@
+.App-header {
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+  }
+  
+  
+  .App-header * {
+    color: inherit;
+  }
+  .Header-left,.Header-right{
+    display: flex;
+  }
+  .Header-left>*{
+    margin-left: 5px;
+  }
+  .Header-span {
+    margin: auto 0 auto 10px;
+  }
+  .Header-button {
+    background-color: rgba(49, 62, 76, 1);
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    margin: auto 0 auto 10px ;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-right: 10px;
+  
+  }
+  
+  .Header-button:hover{
+    cursor: pointer;
+  }
+  .Header-button:active {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    transform: translateY(1px);
+  }

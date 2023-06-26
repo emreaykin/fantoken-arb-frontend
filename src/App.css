@@ -1,0 +1,182 @@
+.exchange-buttons {
+  height: 75px;
+  display: flex;
+
+  align-items: center;
+  color: white;
+}
+.exchange-buttons > button {
+  background-color: #0a6197;
+  height: 32px;
+  width: 60px;
+  border: none;
+  border-radius: 5px;
+  padding: auto;
+
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  margin-right: 5px;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+
+
+tr {
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  color: white;
+  line-height: 2.5;
+}
+thead {
+  display: none;
+}
+
+.cell-label {
+  font-weight: bold;
+  display: block;
+}
+.circle-red::before {
+  content: "";
+  display: inline-block;
+  height: 10px;  /* or any size you want */
+  width: 10px;  /* or any size you want */
+  border-radius: 50%;
+  background: red;  /* or any color you want */
+}
+.circle-green::before {
+  content: "";
+  display: inline-block;
+  height: 10px;  /* or any size you want */
+  width: 10px;  /* or any size you want */
+  border-radius: 50%;
+  background: green;  /* or any color you want */
+}
+
+.buy-color{
+
+  color: #db4f58;
+}
+.sell-color{
+  color: #8fa63c;
+}
+
+.negatif-color{
+
+  color: #db4f58;
+}
+.pozitif-color{
+  color: #8fa63c;
+}
+@media (max-width: 768px) {
+  
+  td {
+    display: inline-block;
+    min-width: calc(100% / 3.2);
+  }
+
+  th,
+  td {
+    font-size: 12px;
+  }
+}
+
+/* Bootstrap Container Yapısı */
+.container {
+  width: 100%;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+  }
+  tr {
+   
+    line-height: 2.1;
+  }
+  .show-xs {
+    display: block;
+  }
+
+  .hide-xs {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .show-sm {
+    display: block;
+  }
+
+  .hide-sm {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .show-md {
+    display: block;
+  }
+
+  .hide-md {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .show-lg {
+    display: block;
+  }
+
+  .hide-lg {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1500px;
+  }
+
+  .show-xl {
+    display: block;
+  }
+
+  .hide-xl {
+    display: none;
+  }
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+/* Sizing */
+.sm {
+  width: 30px;
+  padding: 0;
+}
